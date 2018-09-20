@@ -1,7 +1,7 @@
 import pandas as pd
 import math
 import numpy as np
-from sklearn import preprocessing, cross_validation
+from sklearn import preprocessing, cross_validation,svm
 from sklearn.linear_model import LinearRegression
 
 #this gets the historical data into pandas df
@@ -47,7 +47,9 @@ x = preprocessing.scale(x)
 #(doing 10% of my data should be roughly 1 year, should be enough)
 x_train, x_test, y_train, y_test = cross_validation.train_test_split(x,y,test_size=0.2)
 
-classifier = LinearRegression()
+#classifier = svm.SVR()
+#classifier = svm(kernel='poly')
+classifier = svm.LinearSVR()
 
 classifier.fit(x_train,y_train)
 
