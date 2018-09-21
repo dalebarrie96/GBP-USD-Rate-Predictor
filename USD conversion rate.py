@@ -48,8 +48,6 @@ x = np.array(reversed_df.drop(['label'],1))
 x = preprocessing.scale(x)
 #this basically says predictions will be - predict_out to the end of array
 x_after = x[-predict_out:]
-#x is everything before - predict_out from the end
-#x = x[:-predict_out]
 
 reversed_df.dropna(inplace=True)
 
