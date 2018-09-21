@@ -13,5 +13,5 @@ Iv read about a few other methods like support vector regression.. i plan on try
 
 21/9/18 <br />
 I Done some of this yesterday but hey ho...
-<br />
-I had a go with Scikit learns SVR and was getting a big range of accuracys. SVM with a polynomial kernal got me 60% accuracy but LinearSVC managed to get me back up to 89/90%. I Think ill go back to the linear model for now, maybe add a few more years of data reduce forcast size and that will hopefully get me to the 95%. TensorFlow has a linear regression model that im considering implementing
+<br /><<br />
+I had a go with Scikit learns SVR and was getting a big range of accuracys. SVM with a polynomial kernal got me 60% accuracy but LinearSVC managed to get me back up to 89/90%. I Think ill go back to the linear model for now, maybe add a few more years of data reduce forcast size and that will hopefully get me to the 95%. TensorFlow has a linear regression model that im considering implementing if all else fails.
